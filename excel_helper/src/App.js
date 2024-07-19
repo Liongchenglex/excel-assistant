@@ -57,7 +57,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1>Excel Table Processor</h1>
+      <h1>Excel Table Assistant</h1>
       
       <SampleTableSection 
         sampleTables={sampleTables} 

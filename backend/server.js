@@ -18,8 +18,8 @@ app.post('/api/generate-formula', async (req, res) => {
     });
     
     prompt += `Expected Outcome:\n${expectedOutcomeData}\n\n`;
-    prompt += "You are a master in excel. Can you come up with a set of steps to transform the sample tables into the expected outcome? You need to start by showing the sample data structure that you are analysing.";
-    prompt += "Remember, the input data is a sample set of a bigger dataset, hence you smust handle the data with formulas/automation as much as possible. You can do one round of checking first before giving me the answer. The steps have to flow logically and must have every granular details. You can start from the original Sample Data table, and work your way down to the expected outcome. After every step, you should give me the state of the table after applying the steps until we reach the expected outcome."
+    prompt += "The columns are separated by ','. You are a master in excel. Can you come up with a set of steps to transform the sample tables into the expected outcome? You need to start by showing the sample data structure that you are analysing.";
+    prompt += "Remember, the 'sample data' is a sample set of a bigger dataset, hence you must handle the data with formulas/automation as much as possible. You can do one round of checking first before giving me the answer. The steps have to flow logically and be dynamic enough to handle different data values. You can start from the original Sample Data table, and work your way down to the expected outcome. After every step, you should give me the state of the table after applying the steps until we reach the expected outcome."
 
     console.log('Prompt being sent to GPT:', prompt); // Log the prompt on server side
 
@@ -83,7 +83,7 @@ app.post('/api/generate-vba-steps', async (req, res) => {
     });
     
     prompt += `Expected Outcome:\n${expectedOutcomeData}\n\n`;
-    prompt += "Can you provide step-by-step instructions to create a VBA macro that transforms the sample tables into the expected outcome? Please include code snippets where appropriate.";
+    prompt += "Start with showing the table you are analysis. Can you provide step-by-step instructions to create a VBA macro that transforms the sample tables into the expected outcome? Please include code snippets where appropriate.";
 
     const response = await axios.post('https://api.openai.com/v1/chat/completions', {
       model: "gpt-4o-mini",
