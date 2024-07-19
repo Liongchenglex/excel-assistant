@@ -1,0 +1,72 @@
+.sample-data-container {
+    margin-bottom: 20px;
+  }
+  
+  .instructions {
+    background-color: #e9ecef;
+    border-left: 4px solid #007bff;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 0 4px 4px 0;
+  }
+  
+  .instructions p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .paste-area {
+    width: 100%;
+    padding: 10px;
+    border: 2px dashed #ced4da;
+    border-radius: 4px;
+    resize: vertical;
+    font-family: monospace;
+    transition: border-color 0.3s;
+  }
+  
+  .paste-area:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .table-preview {
+    margin-top: 20px;
+    overflow-x: auto;
+  }
+  
+  .table-preview h4 {
+    margin-bottom: 10px;
+    color: #495057;
+  }
+  
+  .table-preview table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .table-preview td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  .table-preview tr:first-child {
+    background-color: #f8f9fa;
+    font-weight: bold;
+  }
+  
+  .clear-button {
+    padding: 8px 16px;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .clear-button:hover {
+    background-color: #5a6268;
+  }
