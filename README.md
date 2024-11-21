@@ -20,27 +20,6 @@ The Excel Table Processor is an application designed to streamline and automate 
 - **State Management**: React Hooks
 - **Styling**: CSS3 with Flexbox
 
-## Project Structure
-Project Excel
-│
-├── backend
-│   ├── server.js
-│   └── package.json
-│
-└── excel_helper
-├── public
-├── src
-│   ├── components
-│   │   ├── SampleTableSection.js
-│   │   ├── ExpectedOutcomeSection.js
-│   │   ├── FormulaGenerator.js
-│   │   ├── VBAStepGenerator.js
-│   │   ├── PromptDisplay.js
-│   │   └── FollowUpSection.js
-│   ├── App.js
-│   └── index.js
-└── package.json
-
 ## Installation and Setup
 
 1. Clone the repository:
