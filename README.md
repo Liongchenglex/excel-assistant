@@ -55,6 +55,10 @@ npm start
 4. Review the AI-generated response.
 5. Use the follow-up section to ask for clarifications or modifications if needed.
 
+## Future Improvements
+1. Improved UI to accept current input table and desired output table.
+2. To allow continuous conversation about solution provided by AI.
+3. To use improved AI models.
 
 ## Acknowledgments
 
