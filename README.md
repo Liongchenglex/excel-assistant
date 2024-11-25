@@ -58,7 +58,7 @@ npm start
 ## Future Improvements
 1. Improved UI to accept current input table and desired output table.
 2. To allow continuous conversation about solution provided by AI.
-3. To use improved AI models.
+3. To use improved AI models in the future to improve accuracy.
 
 ## Acknowledgments
 
