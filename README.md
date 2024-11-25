@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The Excel Table Processor is an application designed to streamline and automate complex Excel operations. This tool bridges the gap between raw Excel data and actionable insights by leveraging cutting-edge AI technology to generate Excel formulas and VBA scripts.
+The Excel Table Processor is a user-friendly application designed to empower Excel users by bridging the knowledge gap in table transformations. It provides clear, step-by-step guidance to help users achieve their desired table layout or structure. Users can choose their preferred method of transformation, whether through traditional Excel formulas or VBA macros, offering flexibility and ease of learning.
 
 ## Key Features
 
